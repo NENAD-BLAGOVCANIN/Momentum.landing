@@ -6,7 +6,7 @@ import { ModeToggle } from "../mode-toggle";
 export function Header() {
   return (
     <header className="py-4 border">
-      <div className="container px-20 flex justify-between items-center">
+      <div className="container flex justify-between items-center">
         <a href="/" className="flex items-center text-xl font-bold">
           <img src={Icon} alt="MyLogo" className="h-14 w-14 me-15" />
         </a>
